@@ -13,5 +13,25 @@ namespace LabWork6
         {
 
         }
+
+        protected void ButtonSwitchView_Click(object sender, EventArgs e)
+        {
+            MultiView.ActiveViewIndex = (MultiView.ActiveViewIndex + 1) % MultiView.Views.Count;
+        }
+
+        protected void ButtonFilterNone_Click(object sender, EventArgs e)
+        {
+            AdRotator.KeywordFilter = string.Empty;
+        }
+
+        protected void ButtonFilterJpg_Click(object sender, EventArgs e)
+        {
+            AdRotator.KeywordFilter = "jpg";
+        }
+
+        protected void ButtonFilterPng_Click(object sender, EventArgs e)
+        {
+            AdRotator.KeywordFilter = "png";
+        }
     }
 }
