@@ -58,6 +58,24 @@ namespace LabWork6 {
         protected global::System.Web.UI.WebControls.WizardStep WizardStep2;
         
         /// <summary>
+        /// LabelName элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelName;
+        
+        /// <summary>
+        /// TextBoxName элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxName;
+        
+        /// <summary>
         /// WizardStep3 элемент управления.
         /// </summary>
         /// <remarks>
@@ -65,6 +83,24 @@ namespace LabWork6 {
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.WebControls.WizardStep WizardStep3;
+        
+        /// <summary>
+        /// LabelAdmissionDate элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelAdmissionDate;
+        
+        /// <summary>
+        /// CalendarAdmissionDate элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Calendar CalendarAdmissionDate;
         
         /// <summary>
         /// WizardStep4 элемент управления.
@@ -76,6 +112,33 @@ namespace LabWork6 {
         protected global::System.Web.UI.WebControls.WizardStep WizardStep4;
         
         /// <summary>
+        /// LabelFaculty элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelFaculty;
+        
+        /// <summary>
+        /// ListBoxFaculty элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListBox ListBoxFaculty;
+        
+        /// <summary>
+        /// RequiredFieldValidatorFaculty элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorFaculty;
+        
+        /// <summary>
         /// WizardStep5 элемент управления.
         /// </summary>
         /// <remarks>
@@ -83,6 +146,42 @@ namespace LabWork6 {
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.WebControls.WizardStep WizardStep5;
+        
+        /// <summary>
+        /// LabelEducation элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelEducation;
+        
+        /// <summary>
+        /// RadioButtonListEducation элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonListEducation;
+        
+        /// <summary>
+        /// WizardStep6 элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.WizardStep WizardStep6;
+        
+        /// <summary>
+        /// WizardStep7 элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.WizardStep WizardStep7;
         
         /// <summary>
         /// View2 элемент управления.
@@ -103,6 +202,24 @@ namespace LabWork6 {
         protected global::System.Web.UI.WebControls.TreeView TreeView;
         
         /// <summary>
+        /// LabelSelectedNode элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelSelectedNode;
+        
+        /// <summary>
+        /// LabelPeppers элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelPeppers;
+        
+        /// <summary>
         /// View3 элемент управления.
         /// </summary>
         /// <remarks>
@@ -119,6 +236,15 @@ namespace LabWork6 {
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Menu Menu;
+        
+        /// <summary>
+        /// LabelSelectedItem элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelSelectedItem;
         
         /// <summary>
         /// ButtonSwitchView элемент управления.

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -32,6 +33,21 @@ namespace LabWork6
         protected void ButtonFilterPng_Click(object sender, EventArgs e)
         {
             AdRotator.KeywordFilter = "png";
+        }
+
+        protected void TreeView_SelectedNodeChanged(object sender, EventArgs e)
+        {
+            LabelSelectedNode.Text = $"Выбранный продукт: {TreeView.SelectedNode.Text.ToLower()}";
+
+            var peppers = new List<string>();
+            foreach (TreeNode node in TreeView.CheckedNodes)
+                peppers.Add(node.Text.ToLower());
+            LabelPeppers.Text = $"Перцы: {string.Join(", ", peppers)}";
+        }
+
+        protected void Menu_MenuItemClick(object sender, MenuEventArgs e)
+        {
+            LabelSelectedItem.Text = $"Выбранный элемент: {Menu.SelectedItem.Text.ToLower()}";
         }
     }
 }
