@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-<div class="jumbotron">
+<div class="jumbotron py-1">
     <h1>Полнофункциональные элементы управления</h1>
     <div class="row">
         <div class="col">
@@ -23,7 +23,7 @@
                                 <StepStyle></StepStyle>
                                 <WizardSteps>
                                     <asp:WizardStep ID="WizardStep1" runat="server" Title="Начало" AllowReturn="false">
-                                        <div class="d-flex justify-content-center align-items-center text-center" style="height: 100%; background: no-repeat center/100% url('../Images/background.jpg')">
+                                        <div class="d-flex justify-content-center align-items-center text-center" style="height: 100%; background: no-repeat center/100% url('Images/background.jpg')">
                                             <div class="align-self-center">
                                                 <h1 class="text-white">Опрос студентов</h1>
                                             </div>
@@ -83,7 +83,7 @@
                                         </ul>
                                     </asp:WizardStep>
                                     <asp:WizardStep ID="WizardStep7" runat="server" Title="Конец" StepType="Complete">
-                                        <div class="d-flex justify-content-center align-items-center text-center" style="height: 100%; background: no-repeat center/100% url('../Images/background.jpg')">
+                                        <div class="d-flex justify-content-center align-items-center text-center" style="height: 100%; background: no-repeat center/100% url('Images/background.jpg')">
                                             <div class="align-self-center">
                                                 <h1 class="text-white">Спасибо за участие в опросе :)</h1>
                                             </div>
@@ -177,7 +177,7 @@
                     <h2>AdRotator</h2>
                 </div>
                 <div class="card-body">
-                    <asp:AdRotator ID="AdRotator" runat="server" AdvertisementFile="~/ads.xml" Width="300px" Height="400px" />
+                    <asp:AdRotator ID="AdRotator" runat="server" AdvertisementFile="~/ads.xml" Width="300px" Height="350px" />
                 </div>
                 <div class="card-footer">
                     <div class="btn-group">
