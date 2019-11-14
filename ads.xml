@@ -2,28 +2,28 @@
 <Advertisements>
     <Ad>
         <ImageUrl>Images/1.jpg</ImageUrl>
-        <NavigateUrl>~/</NavigateUrl>
+        <NavigateUrl>#</NavigateUrl>
         <AlternateText>1</AlternateText>
         <Impressions>20</Impressions>
         <Keyword>jpg</Keyword>
     </Ad>
     <Ad>
         <ImageUrl>Images/2.jpg</ImageUrl>
-        <NavigateUrl>~/</NavigateUrl>
+        <NavigateUrl>#</NavigateUrl>
         <AlternateText>2</AlternateText>
         <Impressions>30</Impressions>
         <Keyword>jpg</Keyword>
     </Ad>
     <Ad>
         <ImageUrl>Images/3.png</ImageUrl>
-        <NavigateUrl>~/</NavigateUrl>
+        <NavigateUrl>#</NavigateUrl>
         <AlternateText>3</AlternateText>
         <Impressions>10</Impressions>
         <Keyword>png</Keyword>
     </Ad>
     <Ad>
         <ImageUrl>Images/4.png</ImageUrl>
-        <NavigateUrl>~/</NavigateUrl>
+        <NavigateUrl>#</NavigateUrl>
         <AlternateText>4</AlternateText>
         <Impressions>40</Impressions>
         <Keyword>png</Keyword>

@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
@@ -12,7 +9,36 @@ namespace LabWork6
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            AdRotator.KeywordFilter = LabelKeywordFilter.Text;
+        }
 
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Label1.Text = TextBox1.Text;
+        }
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Label2.Text = TextBox2.Text;
+        }
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            Label3.Text = TextBox3.Text;
+        }
+
+        protected void ButtonFilterNone_Click(object sender, EventArgs e)
+        {
+            LabelKeywordFilter.Text = string.Empty;
+            AdRotator.KeywordFilter = string.Empty;
+        }
+        protected void ButtonFilterJpg_Click(object sender, EventArgs e)
+        {
+            LabelKeywordFilter.Text = "jpg";
+            AdRotator.KeywordFilter = "jpg";
+        }
+        protected void ButtonFilterPng_Click(object sender, EventArgs e)
+        {
+            LabelKeywordFilter.Text = "png";
+            AdRotator.KeywordFilter = "png";
         }
 
         protected void ButtonSwitchView_Click(object sender, EventArgs e)
@@ -20,19 +46,12 @@ namespace LabWork6
             MultiView.ActiveViewIndex = (MultiView.ActiveViewIndex + 1) % MultiView.Views.Count;
         }
 
-        protected void ButtonFilterNone_Click(object sender, EventArgs e)
+        protected void Wizard_CancelButtonClick(object sender, EventArgs e)
         {
-            AdRotator.KeywordFilter = string.Empty;
-        }
-
-        protected void ButtonFilterJpg_Click(object sender, EventArgs e)
-        {
-            AdRotator.KeywordFilter = "jpg";
-        }
-
-        protected void ButtonFilterPng_Click(object sender, EventArgs e)
-        {
-            AdRotator.KeywordFilter = "png";
+            TextBoxName.Text = string.Empty;
+            CalendarAdmissionDate.SelectedDate = DateTime.MinValue;
+            ListBoxFaculty.SelectedIndex = 0;
+            RadioButtonListEducation.SelectedIndex = 0;
         }
 
         protected void TreeView_SelectedNodeChanged(object sender, EventArgs e)
@@ -48,6 +67,6 @@ namespace LabWork6
         protected void Menu_MenuItemClick(object sender, MenuEventArgs e)
         {
             LabelSelectedItem.Text = $"Выбранный элемент: {Menu.SelectedItem.Text.ToLower()}";
-        }
+        }        
     }
 }
